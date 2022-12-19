@@ -1,0 +1,9 @@
+import time
+from selenium import webdriver
+
+driver = webdriver.Chrome('/Users/emilwojda/Library/Mobile Documents/com~apple~CloudDocs/python_nauka/bot_instagram/instabot/chromedriver')  # Optional argument, if not specified will search path.
+driver.get('https://www.instagram.com/');
+
+time.sleep(5)
+
+driver.quit()
